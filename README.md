@@ -116,3 +116,15 @@ Just run:
 Get this code, and then do this:
 
     npm link
+
+##
+
+cd lib
+
+node cli-wrapper.js -w .. ../test.js
+node  cli-wrapper.js  -w .. sh ../sh.sh
+node  cli-wrapper.js  -w .. -spid /var/tmp/icp.pid  sh ../sh.sh
+
+##
+npm init
+npm publish easynode-watch, supervisor

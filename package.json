@@ -1,8 +1,8 @@
 {
-  "name": "supervisor",
-  "version": "0.10.0",
-  "description": "A supervisor program for running nodejs programs",
-  "author": "Isaac Z. Schlueter <i@izs.me>",
+  "name": "easynode-watch",
+  "version": "0.0.2",
+  "description": "A supervisor program for running nodejs programs or shell script",
+  "author": "hujb2000@163.com",
   "license": "MIT",
   "contributors": [
     "Todd Branchflower <toddbran@stanford.edu>",
@@ -37,7 +37,9 @@
     "type": "git",
     "url": "git://github.com/petruisfan/node-supervisor.git"
   },
-  "bugs": "https://github.com/petruisfan/node-supervisor/issues",
+  "bugs": {
+    "url": "https://github.com/petruisfan/node-supervisor/issues"
+  },
   "homepage": "https://github.com/petruisfan/node-supervisor/",
   "main": "lib/supervisor.js",
   "bin": {
@@ -53,5 +55,14 @@
   "preferGlobal": true,
   "devDependencies": {
     "nodeunit": "~0.9.0"
-  }  
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "easynode",
+    "watch",
+    "hotcode",
+    "supervisor"
+  ]
 }
