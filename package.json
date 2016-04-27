@@ -1,6 +1,6 @@
 {
   "name": "easynode-watch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A supervisor program for running nodejs programs or shell script",
   "author": "hujb2000@163.com",
   "license": "MIT",
